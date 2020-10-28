@@ -3,6 +3,7 @@ agent any
 stages {
 stage('Build') {
 steps {
+pull code from GIT
 }
 }
 }
