@@ -1,13 +1,10 @@
 pipeline {
-agent none {
+agent node {
 stages {
   stage ('build'){
-    steps { echo "build project successfully"}
-stage ('test'){
-    steps { echo "test project successfully"}
-stage ('deploy'){
-    steps { echo "deploy project successfully"}
-}
-}
-}
-}
+    steps { echo "build project successfully"
+    }
+   }
+  }
+ }
+} 
